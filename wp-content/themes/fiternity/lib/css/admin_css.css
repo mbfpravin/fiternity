@@ -1,0 +1,4 @@
+.toplevel_page_newsletterlist #wpbody { margin-right: 20px; }
+.event_page_orderslist #wpbody,.toplevel_page_contactlist #wpbody { margin-right: 20px; }
+.ui-dialog .ui-dialog-titlebar-close span { margin:-9px !important; }
+.toplevel_page_newsletterlist .wp-list-table, .event_page_orderslist .wp-list-table, .toplevel_page_contactlist .wp-list-table { margin-top: 20px; }

@@ -1,0 +1,119 @@
+/*
+Theme Name: Fiternity
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Fiternity website for events booking.
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fiternity
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+#em-booking .stripe-button-el { display: none; }
+.msg_sub { display: none; }
+.err-msg { display: none; }
+#form-book { display: none; }
+.tile-smallimage p{ color:#605b62;  }
+.menu .active a, footer .active a{ color: #f45c58; }
+.em-booking-buttons .em-booking-submit.disabled, .pricing .event-register .disabled { background-color: #808080; cursor:default;}
+#searchform .disabled a{ cursor:default; }
+#em-booking-submit { cursor: pointer; }
+.payment-details { padding-top: 20px; }
+.total_price_val { display: none; }
+p:empty { display: none; }
+.brand-slider .slick-slide img{
+	width: initial;
+}
+.message-area {
+    height: 184px;
+}
+figcaption{
+	font-size: 13px;
+	padding-bottom:20px!important;
+}
+
+@media screen and (max-width: 640px) {
+.slider-blk img {
+    min-height: auto !important;
+}
+	.subpage .content-image{width:inherit !important}
+	
+.subpage .generic-content {
+   padding: 30px 10px !important;
+}
+}
+@media screen and (max-width: 1024px) {
+    .menu .active a { color:#000;}
+}
+
+.tax-blog_cat .grid-widget .row [class*=col-] {
+    padding-bottom: 30px;
+}
+.banner-bg .bread-crumb{
+	margin-left: 0;
+}
+@media screen and (min-width: 1620px) {
+   .subpagheader .subheader{
+width: 1380px;
+max-width: 1390px;
+}
+}
+.generic-content h3{ 
+	padding-bottom:20px;
+} 
+@media screen and (max-width: 1024px){
+	.app-store{
+    	display: none;
+	}
+}
+.tile-swapimage img{
+	min-height: 570px;
+}
+.page-template-ST_Events #em-wrapper {
+	display: none;
+}
+.stromp{
+	margin-bottom: 20px;
+}
+.col-3 .button{
+	max-width: 205px !important;
+}
+.slider-blk h4{
+	color: #2c0848;
+	padding-bottom: 6px;
+}
+.tile-section h3{
+	font-weight: 700;
+	font-family: "Quicksand-Light",sans-serif;
+    font-size: 16px;
+
+}
+.generic-content p a{
+	letter-spacing: normal;
+}
+.bread-crumb li:last-child{
+	display: none!important;
+}
+.bread-crumb li:nth-last-child(2):after{
+	content: '/';
+    font-size: 10px;
+    position: absolute;
+ 	top: -1px;
+    opacity: 0.4;
+    right: -14px;
+    
+}
+.red-overlay h3{
+	font-weight: 700;
+	font-family: "Quicksand-Medium",sans-serif;
+    font-size: 20px;
+}
+.yellow-overlay h3{
+	font-weight: 700;
+	font-family: "Quicksand-Medium",sans-serif;
+    font-size: 20px;
+}
